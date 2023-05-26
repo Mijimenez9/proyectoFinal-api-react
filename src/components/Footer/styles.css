@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(37, 36, 34, 0.8);
+    margin-top: 20px;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px 0px;
+}
+
+footer span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer .fonte-api a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5px;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    padding: 5px;
+    color: #FFF;
+}
+
+footer .fonte-api a svg {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+footer .fonte-api a:hover {
+    color: #ffd23f;
+    border-color: #ffd23f;
+    transition: 0.5s;
+}
+
