@@ -1,8 +1,8 @@
 {
-  "name": "SWWiki",
+  "name": "sw-wiki",
   "version": "1.0.0",
   "private": true,
-  "homepage": "",
+  "homepage":"https://Mijimenez9.github.io/proyectoFinal-api-react",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,12 +17,10 @@
     "rsuite": "^4.7.5"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
