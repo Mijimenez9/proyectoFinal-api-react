@@ -7,7 +7,7 @@ import EspacioNaves from './pages/EspacioNaves'
 
 const Routes = () => {
     return (
-        <BrowserRouter basename="/star-wars-wiki">
+        <BrowserRouter basename="/proyectoFinal-api-react">
             <Route path="/" exact component={Home} />
             <Route path="/personajes" component={Personajes} />
             <Route path="/planetas" component={Planetas} />
